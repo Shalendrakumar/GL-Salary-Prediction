@@ -35,8 +35,8 @@ def load_saved_artifacts():
     with open("./artifacts/Type_columns.json", "r") as f:
         __type_of_ownership = json.load(f)['Type_columns']
         
-    with open("./artifacts/Sector_columns.json", "r") as f:
-        __sector = json.load(f)['Sector_columns']
+    with open("./artifacts/sector_columns.json", "r") as f:
+        __sector = json.load(f)['sector_columns']
         
     with open("./artifacts/Revenue_columns.json", "r") as f:
         __revenue = json.load(f)['Revenue_columns']
